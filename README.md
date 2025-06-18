@@ -1,6 +1,8 @@
 # Apple Music API Simulator
 
-A Go-based simulator that mimics the Apple Music API search endpoint, built using hexagonal architecture principles. This project provides a REST API that accepts search queries and returns results in Apple Music's response format, using Last.fm as the underlying music data provider.
+This is a Go-based simulator that mimics the Apple Music API search endpoint, built using hexagonal architecture principles. This project provides a REST API that accepts search queries and returns results in Apple Music's response format, using Last.fm as the underlying music data provider.
+
+I created this project to learn about the hexagonal architecture and how to implement it in GoLang.
 
 ## Features
 
@@ -234,19 +236,6 @@ go test -cover ./...
 ├── go.sum
 └── README.md
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
